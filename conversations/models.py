@@ -1,3 +1,9 @@
 from django.db import models
+from core import models as core_models
 
-# Create your models here.
+
+class Converstation(core_models.TimeStampedModel):
+
+    """ Converstation Model Definition """
+
+    pass
