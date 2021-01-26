@@ -4,4 +4,7 @@ from . import models
 
 @admin.register(models.List)
 class List(admin.ModelAdmin):
+
+    """List admin Definition """
+
     pass
